@@ -1,16 +1,39 @@
-### Hi there 👋
+```dart
+// Hello there, Welcome! 👋
 
-<!--
-**AbsarDotDev/AbsarDotDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```dart
+class Profile {
+  constructor() {
+    this.name = 'Your Name';
+    this.experience = '3+ Years in Crafting Digital Experiences';
+    this.focus = ['Flutter', 'Web Dev', 'Mobile Apps'];
+    this.email = 'your.email@example.com';
+    this.phone = '+123 456 7890';
+    this.location = 'Global Citizen 🌍';
+  }
 
-Here are some ideas to get you started:
+  get skills() {
+    return {
+      languages: ['Dart', 'JavaScript', 'PHP', 'Node.js'],
+      frameworks: ['Flutter', 'React.js', 'Express.js', 'Next.js'],
+      databases: ['Firebase', 'MongoDB', 'SQL'],
+      tools: ['Git', 'VS Code', 'Figma'],
+      interests: ['UI/UX Design', 'App Security', 'Innovation']
+    };
+  }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  get socialLinks() {
+    return {
+      linkedin: 'https://www.linkedin.com/in/your-linkedin',
+      twitter: 'https://twitter.com/your-twitter',
+      instagram: 'https://www.instagram.com/your-instagram',
+      website: 'https://www.yourwebsite.com'
+    };
+  }
+
+  get hireMe() {
+    return 'Open to exciting collaborations. Let\'s build the future together!';
+  }
+}
+
+const developer = new Profile();
