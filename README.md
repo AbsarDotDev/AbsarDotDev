@@ -1,5 +1,7 @@
 # Developer Profile: Absar Ali 👋
-![Developer GIF](https://cdn.dribbble.com/users/2606017/screenshots/14272063/media/8cc0edcf4e44f2d486c6e4f445883597.gif)
+<div align="center">
+  <img height="450" src="https://cdn.dribbble.com/users/2606017/screenshots/14272063/media/8cc0edcf4e44f2d486c6e4f445883597.gif"  />
+</div>
 
 ## Summary
 
